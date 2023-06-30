@@ -1,0 +1,59 @@
+/* Custom styles for the landing page */
+
+body {
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav .navbar-nav {
+    margin-left: auto;
+  }
+  
+  #pictures h2,
+  #add-picture h2 {
+    margin-bottom: 20px;
+  }
+  
+  #pictures-grid .card {
+    height: 100%;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Custom media queries for responsiveness */
+  
+  @media (max-width: 576px) {
+    /* Small devices (mobile phones) */
+    body {
+      padding-top: 80px;
+    }
+  
+    #pictures-grid .card {
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Medium devices (tablets) */
+    body {
+      padding-top: 90px;
+    }
+  
+    #pictures-grid .card {
+      margin-bottom: 20px;
+    }
+  }
+  
